@@ -6,4 +6,4 @@ from django.http.request import HttpRequest
 
 
 def hello_world(request: HttpRequest) -> HttpResponse:
-    return HttpResponse("Hello World")
+    return HttpResponse("Hello World!")
